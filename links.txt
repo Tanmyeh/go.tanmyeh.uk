@@ -1,0 +1,30 @@
+[Links]
+[GoLink]: https://Go.Tanmyeh.uk/digital-strategy
+[Link]: https://tanmyeh.uk/blog/digital-strategy-for-modern-businesses
+
+[GoLink]: https://Go.Tanmyeh.uk/cloud-migration
+[Link]: https://tanmyeh.uk/services/cloud-migration-solutions
+
+[GoLink]: https://Go.Tanmyeh.uk/ai-integration
+[Link]: https://tanmyeh.uk/blog/artificial-intelligence-in-business
+
+[GoLink]: https://Go.Tanmyeh.uk/cybersecurity
+[Link]: https://tanmyeh.uk/services/cybersecurity-solutions
+
+[GoLink]: https://Go.Tanmyeh.uk/data-analytics
+[Link]: https://tanmyeh.uk/blog/leveraging-data-analytics-for-growth
+
+[GoLink]: https://Go.Tanmyeh.uk/iot-solutions
+[Link]: https://tanmyeh.uk/services/internet-of-things-integration
+
+[GoLink]: https://Go.Tanmyeh.uk/digital-transformation
+[Link]: https://tanmyeh.uk/blog/digital-transformation-journey
+
+[GoLink]: https://Go.Tanmyeh.uk/blockchain
+[Link]: https://tanmyeh.uk/services/blockchain-technology-solutions
+
+[GoLink]: https://Go.Tanmyeh.uk/agile-methodology
+[Link]: https://tanmyeh.uk/blog/agile-project-management-best-practices
+
+[GoLink]: https://Go.Tanmyeh.uk/devops
+[Link]: https://tanmyeh.uk/services/devops-implementation
