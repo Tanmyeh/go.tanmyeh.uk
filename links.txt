@@ -1,30 +1,30 @@
 [Links]
-[GoLink]: https://Go.Tanmyeh.uk/digital-strategy
-[Link]: https://tanmyeh.uk/blog/digital-strategy-for-modern-businesses
+[GoLink]: digital-transformation
+[Link]: https://tanmyeh.uk/blog/solution-station/navigating-the-digital-labyrinth-a-guide-to-transformation-and-growth/
 
-[GoLink]: https://Go.Tanmyeh.uk/cloud-migration
+[GoLink]: cloud-migration
 [Link]: https://tanmyeh.uk/services/cloud-migration-solutions
 
-[GoLink]: https://Go.Tanmyeh.uk/ai-integration
+[GoLink]: ai-integration
 [Link]: https://tanmyeh.uk/blog/artificial-intelligence-in-business
 
-[GoLink]: https://Go.Tanmyeh.uk/cybersecurity
+[GoLink]: cybersecurity
 [Link]: https://tanmyeh.uk/services/cybersecurity-solutions
 
-[GoLink]: https://Go.Tanmyeh.uk/data-analytics
+[GoLink]: data-analytics
 [Link]: https://tanmyeh.uk/blog/leveraging-data-analytics-for-growth
 
-[GoLink]: https://Go.Tanmyeh.uk/iot-solutions
+[GoLink]: iot-solutions
 [Link]: https://tanmyeh.uk/services/internet-of-things-integration
 
-[GoLink]: https://Go.Tanmyeh.uk/digital-transformation
+[GoLink]: digital-transformation
 [Link]: https://tanmyeh.uk/blog/digital-transformation-journey
 
-[GoLink]: https://Go.Tanmyeh.uk/blockchain
+[GoLink]: blockchain
 [Link]: https://tanmyeh.uk/services/blockchain-technology-solutions
 
-[GoLink]: https://Go.Tanmyeh.uk/agile-methodology
+[GoLink]: agile-methodology
 [Link]: https://tanmyeh.uk/blog/agile-project-management-best-practices
 
-[GoLink]: https://Go.Tanmyeh.uk/devops
+[GoLink]: devops
 [Link]: https://tanmyeh.uk/services/devops-implementation
