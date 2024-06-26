@@ -41,10 +41,13 @@
                     if (lines[i].trim().startsWith('[GoLink]:')) {
                         const shortUrl = lines[i].split(':')[1].trim();
                         const longUrl = lines[i + 1].split(':')[1].trim();
-                        links[new URL(shortUrl).pathname] = longUrl;
+                        // Extract just the path from the short URL
+                        const path = shortUrl.split('/').pop();
+                        links[path] = longUrl;
                     }
                 }
 
+                console.log('Parsed links:', links);
                 return links;
             } catch (error) {
                 console.error('Error fetching links:', error);
@@ -55,17 +58,22 @@
         async function redirect() {
             try {
                 const links = await fetchLinks();
-                const path = window.location.pathname;
+                // Get the last part of the path
+                const path = window.location.pathname.split('/').pop();
+                console.log('Current path:', path);
 
                 if (path in links) {
+                    console.log('Redirecting to:', links[path]);
                     window.location.href = links[path];
                 } else {
+                    console.log('Link not found');
                     document.getElementById('message').textContent = 'Link not found. Redirecting to homepage...';
                     setTimeout(() => {
                         window.location.href = 'https://tanmyeh.uk';
                     }, 3000);
                 }
             } catch (error) {
+                console.error('Redirect error:', error);
                 document.getElementById('message').textContent = 'An error occurred. Please try again later.';
             }
         }
