@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go.Tanmyeh.uk URL Shortener</title>
+</head>
+<body>
+    <div id="message">Redirecting...</div>
+
+    <script>
+        async function fetchLinks() {
+            const response = await fetch('links.txt');
+            const text = await response.text();
+            const lines = text.split('\n');
+            const links = {};
+
+            for (let i = 0; i < lines.length; i++) {
+                if (lines[i].startsWith('[GoLink]:')) {
+                    const shortUrl = lines[i].split(':')[1].trim();
+                    const longUrl = lines[i + 1].split(':')[1].trim();
+                    links[new URL(shortUrl).pathname] = longUrl;
+                }
+            }
+
+            return links;
+        }
+
+        async function redirect() {
+            const links = await fetchLinks();
+            const path = window.location.pathname;
+
+            if (path in links) {
+                window.location.href = links[path];
+            } else {
+                document.getElementById('message').textContent = 'Link not found.';
+            }
+        }
+
+        redirect();
+    </script>
+</body>
+</html>
