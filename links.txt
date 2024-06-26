@@ -1,5 +1,5 @@
 [Links]
-[GoLink]: digital-transformation
+[GoLink]: digital-transformation-short-guide
 [Link]: https://tanmyeh.uk/blog/solution-station/navigating-the-digital-labyrinth-a-guide-to-transformation-and-growth/
 
 [GoLink]: GoogleWS
