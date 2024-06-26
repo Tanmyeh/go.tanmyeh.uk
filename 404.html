@@ -41,9 +41,7 @@
                     if (lines[i].trim().startsWith('[GoLink]:')) {
                         const shortUrl = lines[i].split(':')[1].trim();
                         const longUrl = lines[i + 1].split(':')[1].trim();
-                        // Extract just the path from the short URL
-                        const path = shortUrl.split('/').pop();
-                        links[path] = longUrl;
+                        links[shortUrl] = longUrl;
                     }
                 }
 
@@ -58,13 +56,16 @@
         async function redirect() {
             try {
                 const links = await fetchLinks();
-                // Get the last part of the path
+                // Get the path without the leading slash
                 const path = window.location.pathname.split('/').pop();
                 console.log('Current path:', path);
 
                 if (path in links) {
                     console.log('Redirecting to:', links[path]);
                     window.location.href = links[path];
+                } else if (path === '404.html' || path === '') {
+                    console.log('On 404 page, no redirection needed');
+                    document.getElementById('message').textContent = 'Welcome to the URL Shortener. Use a short link to redirect.';
                 } else {
                     console.log('Link not found');
                     document.getElementById('message').textContent = 'Link not found. Redirecting to homepage...';
