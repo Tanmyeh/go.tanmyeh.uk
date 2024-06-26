@@ -1,6 +1,6 @@
 [Links]
-[GoLink]: digital-transformation
-[Link]: https://tanmyeh.uk/blog/solution-station/navigating-the-digital-labyrinth-a-guide-to-transformation-and-growth/
+[GoLink]: digital-strategy
+[Link]: https://tanmyeh.uk/blog/digital-strategy-for-modern-businesses
 
 [GoLink]: cloud-migration
 [Link]: https://tanmyeh.uk/services/cloud-migration-solutions
@@ -18,7 +18,7 @@
 [Link]: https://tanmyeh.uk/services/internet-of-things-integration
 
 [GoLink]: digital-transformation
-[Link]: https://tanmyeh.uk/blog/digital-transformation-journey
+[Link]: https://tanmyeh.uk/blog/solution-station/navigating-the-digital-labyrinth-a-guide-to-transformation-and-growth/
 
 [GoLink]: blockchain
 [Link]: https://tanmyeh.uk/services/blockchain-technology-solutions
