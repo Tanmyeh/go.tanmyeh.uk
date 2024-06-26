@@ -40,8 +40,8 @@
                 for (let i = 0; i < lines.length; i++) {
                     if (lines[i].trim().startsWith('[GoLink]:')) {
                         const shortUrl = lines[i].split(':')[1].trim();
-                        const longUrl = lines[i + 1].split(':')[1].trim();
-                        links[shortUrl] = longUrl;
+                        const longUrl = lines[i + 1].substring(lines[i + 1].indexOf('https'));
+                        links[shortUrl] = longUrl.trim();
                     }
                 }
 
